@@ -1,0 +1,23 @@
+{
+  "name": "apextracker",
+  "version": "1.0.0",
+  "description": "Apex Legends Tracker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TylerCEdge/ApexTracker.git"
+  },
+  "keywords": [
+    "Apex",
+    "Legends"
+  ],
+  "author": "Tyler Edge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TylerCEdge/ApexTracker/issues"
+  },
+  "homepage": "https://github.com/TylerCEdge/ApexTracker#readme"
+}
