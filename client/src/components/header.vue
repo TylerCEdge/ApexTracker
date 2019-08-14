@@ -1,3 +1,4 @@
+
 <template>
   <header>
     <img :src="image" />
@@ -19,7 +20,6 @@ export default {
 img {
   width: 300px;
 }
-
 @media (max-width: 700px) {
   img {
     display: block;

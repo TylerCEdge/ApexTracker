@@ -21,7 +21,7 @@
         />
       </div>
       <div class="form-group">
-        <input type="submit" value="submit" class="btn" />
+        <input type="submit" value="Submit" class="btn" />
       </div>
     </form>
   </section>
@@ -37,9 +37,20 @@ export default {
     };
   },
   beforeCreate() {
-      document.body.className = "body-bg-image"
+    document.body.className = "body-bg-image";
+  },
+  methods: {
+    onSubmit() {
+      if (!this.gamertag) {
+        this.$toasted.show("Please enter a gamertag", {
+          duration: 1000,
+          icon: "exclamation-circle"
+        });
+      } else {
+        this.$router.push(`/profile/${this.platform}/${this.gamertag}`);
+      }
+    }
   }
-    
 };
 </script>
 
