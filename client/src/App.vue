@@ -1,21 +1,24 @@
 <template>
   <div class="container">
-    Hello
+    <Header />
+    <Search />
   </div>
 </template>
 
 <script>
-
+import Header from "./components/Header";
+import Search from "./components/search";
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    
+    Header,
+    Search
   }
-}
+};
 </script>
 
 <style>
-  :root {
+:root {
   --primary-color: #953036;
 }
 * {
